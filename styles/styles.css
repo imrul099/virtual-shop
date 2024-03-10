@@ -3,3 +3,91 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #9376e0;
+}
+
+nav{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-container{
+    min-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    cursor: pointer;
+}
+
+.nav-container img{
+    width: 80px;
+}
+
+.nav-container p{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.nav-container p .span-1{
+    color: #e893cf;
+    font-weight: 900;
+}
+
+.item-container{
+    width: 50%;  
+}
+
+.item-container ul{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.item-container li{
+    list-style: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    
+}
+
+.item-container li a{
+    text-decoration: none;
+    color: #e6dada;
+}
+
+.item-container li a:hover{
+    color: azure;
+    background: #9376e0;
+}
+
+.login-btn{
+    padding: 10px 8px;
+    background: #e893cf;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width: 576px) {
+    nav, .item-container ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .item-container ul{
+        gap: 16px;
+    }
+
+    .item-container, li .login-btn{
+        margin-bottom: 16px;
+    }
+}
