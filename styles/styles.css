@@ -1,168 +1,217 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
 body {
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    background: #9376e0;
+header {
+  background: #9376e0;
 }
 
-nav{
-    max-width: 1250px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    
+nav {
+  max-width: 1250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
 }
 
-.nav-container{
-    min-height: 20px;
-    display: flex;
-    align-items: center;
-    width: 50%;
-    cursor: pointer;
+.nav-container {
+  min-height: 20px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  cursor: pointer;
 }
 
-.nav-container img{
-    width: 80px;
+.nav-container img {
+  width: 80px;
 }
 
-.nav-container p{
-    font-size: 1.25rem;
-    font-weight: 600;
+.nav-container p {
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
-.nav-container p .span-1{
-    color: #e893cf;
-    font-weight: 900;
+.nav-container p .span-1 {
+  color: #e893cf;
+  font-weight: 900;
 }
 
-.item-container{
-    width: 50%;  
+.item-container {
+  width: 50%;
 }
 
-.item-container ul{
-    display: flex;
-    justify-content: space-around;
-    
+.item-container ul {
+  display: flex;
+  justify-content: space-around;
 }
 
-.item-container li{
-    list-style: none;
-    font-size: 1.25rem;
-    font-weight: 500;
-    
+.item-container li {
+  list-style: none;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
-.item-container li a{
-    text-decoration: none;
-    color: #e6dada;
+.item-container li a {
+  text-decoration: none;
+  color: #e6dada;
 }
 
-.item-container li a:hover{
-    color: azure;
-    background: #9376e0;
+.item-container li a:hover {
+  color: azure;
+  background: #9376e0;
 }
 
-.login-btn{
-    padding: 10px 8px;
-    background: #e893cf;
-    border-radius: 5px;
+.login-btn {
+  padding: 10px 8px;
+  background: #e893cf;
+  border-radius: 5px;
 }
 
 /* banner section */
-.banner-section{
-    max-width: 1250px;
-    margin: 0 auto;
-    min-height: 400px;
-    display: flex;
-    margin-top: 30px;
-
+.banner-section {
+  max-width: 1250px;
+  margin: 30px auto;
+  min-height: 400px;
+  display: flex;
 }
 
-.text-container{
-    background: rgb(238, 236, 236);
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
+.text-container {
+  background: #eeecec;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
 }
 
-.text-container p, span{
-    font-size: 2.8rem;
+.text-container span {
+  font-size: 2.8rem;
 }
 
-.banner-title{
-    background: linear-gradient(to top, #e893cf, #9376e0);
-    background-clip: text;
-    color: transparent;
-    font-size: 3rem;
+.banner-title {
+  background: linear-gradient(to top, #e893cf, #9376e0);
+  background-clip: text;
+  color: transparent;
+  font-size: 3rem;
 }
 
-.banner-descrip{
-    font-family: "Dancing Script", cursive;
-    font-weight: 700;
+.banner-descrip {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+  font-size: 2.8rem;
 }
 
-.fa-brands{
-    margin-right: 10px;
-    cursor: pointer;
+.fa-brands {
+  margin-right: 10px;
+  cursor: pointer;
 }
 
-.banner-btn{
-    padding: 12px 10px;
-    border-radius: 8px;
-    color: rgb(32, 30, 30);
-    font-size: 1.25rem;
-    font-weight: 600;
-    cursor: pointer;
-    border: 1px solid salmon;
-    margin-right: 10px;
+.banner-btn {
+  padding: 12px 10px;
+  border-radius: 8px;
+  color: rgb(32, 30, 30);
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid salmon;
+  margin-right: 10px;
 }
 
-.banner-btn:hover{
-    background: #e6dada;
+.banner-btn:hover {
+  background: #e6dada;
 }
 
-
-.banner-img{
-    width: 50%;
-    position: relative;
-
+.banner-img {
+  width: 50%;
+  position: relative;
 }
 
-.banner-img img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto;
+.banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
 }
 
-.discount{
-    font-size: 1rem;
-    font-weight: 600;
-    width: 90px;
-    height: 90px;
-    background: #9376e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 72%;
-    left: 69%;
+.discount {
+  font-size: 1rem;
+  font-weight: 600;
+  width: 90px;
+  height: 90px;
+  background: #9376e0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 72%;
+  left: 69%;
+}
 
+/*Product Sections */
+
+.product-section {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.product-title {
+  margin-top: 45px;
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.grid-container {
+  min-height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.single-product {
+  padding: 20px;
+  background: #eeecec;
+  border-radius: 8px;
+}
+
+.single-product img {
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.fa-regular,
+.fa-solid {
+  padding: 10px;
+  background: #a690e3;
+  font-size: 20px;
+  display: flex;
+  border-radius: 50%;
+}
+
+.single-product .bag-price {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 5px 0;
 }
