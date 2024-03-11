@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 body {
     font-family: "Poppins", sans-serif;
 }
@@ -77,17 +79,90 @@ nav{
     border-radius: 5px;
 }
 
+/* banner section */
+.banner-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    margin-top: 30px;
 
-@media screen and (max-width: 576px) {
-    nav, .item-container ul{
-        flex-direction: column;
-        align-items: center;
-    }
-    .item-container ul{
-        gap: 16px;
-    }
+}
 
-    .item-container, li .login-btn{
-        margin-bottom: 16px;
-    }
+.text-container{
+    background: rgb(238, 236, 236);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.text-container p, span{
+    font-size: 2.8rem;
+}
+
+.banner-title{
+    background: linear-gradient(to top, #e893cf, #9376e0);
+    background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+}
+
+.banner-descrip{
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+}
+
+.fa-brands{
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.banner-btn{
+    padding: 12px 10px;
+    border-radius: 8px;
+    color: rgb(32, 30, 30);
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid salmon;
+    margin-right: 10px;
+}
+
+.banner-btn:hover{
+    background: #e6dada;
+}
+
+
+.banner-img{
+    width: 50%;
+    position: relative;
+
+}
+
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.discount{
+    font-size: 1rem;
+    font-weight: 600;
+    width: 90px;
+    height: 90px;
+    background: #9376e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 72%;
+    left: 69%;
+
 }
